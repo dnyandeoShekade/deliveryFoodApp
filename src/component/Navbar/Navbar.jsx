@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <img src={assets.logo} alt="" className="logo" />
+      <img src={assets.geminilogo} alt="" className="logo" />
       <ul className='navbar-menu'>
       <Link to='/' onClick={()=>setMenu("home")} className={menu==="home"?"active":""}>home</Link>
       <a href='#explore-menu' onClick={()=>setMenu("menu")} className={menu==="menu"?"active":""}>menu</a>
